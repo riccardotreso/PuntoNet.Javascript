@@ -1,0 +1,59 @@
+
+
+//Scrivere una procedura che stampi nella console i primi 10 numeri
+
+var contatore;
+contatore = 0;
+
+while(contatore < 10){
+	
+	console.log(contatore);
+	contatore++;
+}
+
+
+
+
+
+
+//Scrivere l'elenco dei primi 10 numeri pari
+
+//Dichiarazioni
+var contatore;
+var numero;
+
+//set
+contatore = 1;
+numero = 0;
+
+
+while(numero < 20){
+	numero = numero+2;
+	console.log(numero);
+}
+
+
+var contatore;
+var numero;
+
+contatore = 0;
+numero = 0;
+while(contatore < 10){
+	//console.log("Numero: "+numero);
+	//console.log("Contatore: "+contatore);
+	if(numero % 2 == 0){
+		console.log("il risultato è: "+numero);
+		contatore++;
+	}
+
+	numero++;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+
+
+//utilizzando la funzione Math.random(), trovare i primi 10 numeri casuali 
+//multipli di 10
+
+//math.random  0-1 
+
+0-100
+
+
+parseInt(Math.random()*100)
+
+var contatore = 0;
+
+while(contatore<10){
+	var numero = parseInt(Math.random()*100);
+
+	if(numero % 10 == 0){
+		console.log("il numero casuale è "+numero);
+		contatore++;
+	}
+}
+
+
+
+
+
+//Stampare i primi 10 
+//non è divisibile per 2, 3, 5, 7, 11, 13, 17
+
+var contatore = 0;
+var numero = 0;
+
+while(contatore < 10){
+	if(numero % 2 != 0 && numero % 3 != 0 && ){
+		if(){
+				if(numero % 5 != 0){
+						if(numero % 7 != 0){
+								console.log(numero);
+								contatore++;
+						}
+				}
+		}
+		
+	}
+	
+	
+}
+
+
+
+
+//scrivere un programma che moltiplia a triplette (10 triplette) 
+//i numeri casuali  (0-100)
+//e li mostri a video
+
+
+10 20 30 = x 1° tripletta moltiplicata 
+40 20 50 = y 2° tripletta moltiplicata
+
+
+var contatore = 0;
+var numero = 0;
+
+while(contatore < 10){
+	var num1 = parseInt(Math.random()*100);
+	var num2 = parseInt(Math.random()*100); 
+	var num3 = parseInt(Math.random()*100);
+	var result;
+	//var num = parseInt(Math.random()*100);
+
+	result = num1*num2*num3;
+	console.log(result);
+
+	contatore++;
+}
+
+
+
+var strNome = "Il mio nome è Luca";
+// 1)
+//eseguire una print lettera per letta al contrario
+/*
+a
+c
+u
+L
+
+è
+
+
+*/
+
+//2) rovesciare la scringa e printarla
+//acuL è .......
+

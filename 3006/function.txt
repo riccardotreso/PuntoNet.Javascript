@@ -1,0 +1,44 @@
+//Scrivere una function che inverte la stringa
+// Paolo -> oloaP
+
+function ReverseString(sNome){
+	var i = sNome.length-1;
+	var result = '';
+	while(i>0){
+		result = result + sNome[i];
+		//result += sNome[i];
+		i--;
+	}
+
+	return result;
+}
+
+var rs = ReverseString("Paolo");
+rs = ReverseString("a");
+rs = ReverseString("Ciao Luca");
+rs = ReverseString("Ci vediamo lunedì");
+
+
+//Per lunedì:
+//scrivere una function che restituisce 
+//i primi n caratteri di una stringa (parametri di input)
+//restituisce una stringa
+
+//scrivere una function che riceve in ingresso un array 
+//(di interi)
+//e un numero, conta le occorrenze del numero nell'array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
