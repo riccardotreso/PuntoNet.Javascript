@@ -1,23 +1,41 @@
 //istanziato la variabile globale
 var ARRAY_LOG = [];
 
+function exists(array, value){
+	//body
+	var i = 0;
+	var result = false;
+	while(i< array.length){
+		if(array[i] == value){
+			result = true;
+		}
+		i++;
+	}
+
+	return result;
+
+}
+
 function insData(pInput){
 	//body 
 	//return true o false in base all'esito dell'inserimento
 	var result = false;
 
-	//TODO: Controllo che pInput non ci sia già nell'array
-	//...
+	if(!exists(ARRAY_LOG, pInput)){
+		//Inserisco l'informazione nell'array
+		ARRAY_LOG.push(pInput);
 
-	//Inserito l'informazione nell'array
-	ARRAY_LOG.push(pInput);
+		//resettato la variabile result
+		result = true;
+	}
 
-	//resettato la variabile result
-	result = true;
 
 	//restituito il risultato
 	return result;
 }
+
+
+
 
 
 function getData() {
