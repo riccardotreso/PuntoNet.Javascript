@@ -1,0 +1,24 @@
+//Compagnia di volo (ryanair)
+-properties
+posti totali
+codice di volo 
+partenza
+arrivo
+data partenza
+data arrivo
+gate
+ritardo
+passeggeri
+livello di benzina
+
+-methods
+controllo benzina
+aggiungere un passeggero
+togliere un passeggero
+cambiare la partenza (avvisare le persone)
+cambiare il gate(avvisare le persone)
+stampa informazioni volo
+
+
+
+
