@@ -1,0 +1,90 @@
+function Annuncio(pTitolo, pMetri, pLocali, pBagni, pPrezzo, pDescrizione){
+	var self = this;
+
+
+	self.titolo = pTitolo;
+	self.metratura = pMetri;
+	self.locali = pLocali;
+	self.bagni = pBagni;
+	self.prezzo = pPrezzo;
+	self.descrizione = pDescrizione;
+
+	self.latiture;
+	self.longitude;
+
+	self.photo = [];
+
+	self.agenzia = {};
+	self.visitatori = [];
+
+
+	//Methods
+
+	self.GetTitolo = function(){
+		return self.titolo;
+	};
+
+	self.GetSottoTitolo = function(){
+		if(<<controllo locali>>){
+		return self.metratura + " m2 | " + self.locali + " locali | " + self.bagni + " bagni" 
+		}
+		return self.metratura + " m2 | " + self.locali + " locali | " + self.bagni + " bagni" 
+
+	}
+
+	self.AddPhoto = function(strUrl){
+		self.photo.push(strUrl);
+	}
+
+
+	self.SetAgenzia = function(pNomeAgenzia, pViaAgenzia, pNTelefonoAgenzia){
+		if(pNomeAgenzia == ""){
+			throw "Nome agenzia obbligatorio";
+		}
+
+		if(pViaAgenzia == ""){
+			throw "Via agenzia obbligatorio";
+		}
+
+		if(pNTelefonoAgenzia == ""){
+			throw "Telefono agenzia obbligatorio";
+		}
+
+		self.agenzia.nome = pNomeAgenzia;
+		self.agenzia.indirizzo = pViaAgenzia;
+		self.agenzia.telefono = pNTelefonoAgenzia;
+
+	}
+
+
+	self.AddVisitatore = function(Email, Telefono, Contatto){
+
+
+	}
+
+}
+
+
+
+
+
+var obj = Annuncio(-......)
+
+
+
+try{
+	
+
+	obj.SetAgenzia(..., ..., ...)
+}
+catch(exception){
+	console.log(exception);
+}
+
+
+
+
+
+
+
+
