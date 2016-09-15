@@ -1,4 +1,5 @@
 
+//var rubrica = require("./Rubrica");
 
 
 function doInsert(rl){
@@ -9,9 +10,11 @@ function doInsert(rl){
 			_cognome = cognome;
 			_doQuestion(rl, "Inserire il numero di telefono", function(telefono){
 				_numeroTelefono = telefono;
-				console.log(_nome +" "+cognome+" "+ _numeroTelefono);
+				//console.log(_nome +" "+_cognome+" "+ _numeroTelefono);
 
 				//Insert then 
+				//rubrica.insert(_nome,_cognome,_telefono);
+
 				_doQuestionMenu(rl, _welcomeMessage);
 			});
 		});
