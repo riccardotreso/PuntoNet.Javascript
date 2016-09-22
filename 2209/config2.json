@@ -1,0 +1,8 @@
+{
+	"Production":{
+		"DBPath":"DB.txt"
+	},
+	"Development":{
+		"DBPath":"DB_Dev.txt"
+	}
+}

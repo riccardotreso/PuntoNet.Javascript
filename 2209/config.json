@@ -1,0 +1,4 @@
+[
+	{"enviroment":"Production", "DBPath":"DB.txt"},
+	{"enviroment":"Development", "DBPath":"DB_Dev.txt"}
+]
